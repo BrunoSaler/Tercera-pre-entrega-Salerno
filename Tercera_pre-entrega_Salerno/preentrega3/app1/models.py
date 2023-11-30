@@ -41,9 +41,10 @@ class Usuario(models.Model):
     password = models.CharField(max_length=100, blank=False, null=False)
     nacimiento = models.DateField(blank=False, null=False)
     telefono = models.CharField(max_length=100, blank=False, null=False)
+    USERNAME_FIELD = "email"
 
     def __str__(self):
-        return self.email
+        return self.nombre
 
 class Producto(models.Model):
     producto = models.CharField(max_length=100)
