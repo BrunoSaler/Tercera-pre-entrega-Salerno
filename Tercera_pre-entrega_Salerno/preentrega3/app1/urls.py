@@ -7,5 +7,10 @@ urlpatterns = [
     path("login/", view_login),
     path("managermenu/", view_managermenu),
     path("usermenu/", view_usermenu),
-    path("ingresoproducto/", view_ingresar_producto),
+    path("managermenu/ingresoproducto/", view_ingresar_producto),
+    path("managermenu/verproductos/", view_ver_productos),
+    path("managermenu/verusuarios/", view_ver_usuarios),
+    path("managermenu/ingresocompras/", view_ingresar_compra),
+    path("managermenu/vercompras/", view_ver_compras),
+    path("managermenu/buscarproducto/", view_buscar_producto),
 ]
