@@ -12,7 +12,7 @@ Password: Betagamma8
 
 Por el momento, los ingresos a usuario, contraseña y los formularios deben respetar mayúsculas y minúsculas.
 
-Se incluye archivo requirements.txt.
+Se incluye archivo requirements.txt. DEBEN INSTALARSE LOS PAQUETES QUE SE INDICAN PARA QUE FUNCIONE CORRECTAMENTE (NÓTESE CRISPY-FORMS Y CRISPY-BOOTSTRAP5)
 
 Home: es la vista principal, donde se presenta el negocio y hay links hacia las demás funciones:
 Puede navegar por la misma para ver su estética, y hacer click en alguna de las imágenes de Productos.
